@@ -1,5 +1,8 @@
 import { Button } from '@/components/ui/button';
+import Image from 'next/image';
 import Link from 'next/link';
+
+import Logo from '@/app/favicon.ico'
 
 const Navbar = () => {
   return (
@@ -8,7 +11,7 @@ const Navbar = () => {
         <div className="flex items-center">
           
             <a href='' className="text-white text-lg font-bold select-none">
-              DevPls
+              <Image src={Logo} alt='Logo' className='size-12'/>
             </a>
           
         </div>
