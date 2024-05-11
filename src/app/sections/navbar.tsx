@@ -18,9 +18,9 @@ const Navbar = () => {
         <div className="flex items-center">
 
         <div className='mr-7'>
-            <a href='' className="text-white ml-6  hover:text-[#8776B2]">Home</a>
-            <a href='' className="text-white ml-6 hover:text-[#8776B2]">Projetos</a>
-            <a href='' className="text-white ml-6 hover:text-[#8776B2]">Serviços</a>
+            <a href='' className="text-white ml-6  hover:text-[#a3a0ad]">Home</a>
+            <a href='' className="text-white ml-6 hover:text-[#a3a0ad]">Projetos</a>
+            <a href='' className="text-white ml-6 hover:text-[#a3a0ad]">Serviços</a>
         </div>
 
          

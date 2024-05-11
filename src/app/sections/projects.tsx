@@ -3,6 +3,9 @@ import ProjectsComp from "@/components/ui/projectsComp"
 
 import { ArchiveBoxIcon, ChevronRightIcon, BoltIcon, ChevronDownIcon } from '@heroicons/react/24/solid'
 
+import  Exp  from "@/assets/experiencia.svg"
+import Image from "next/image"
+import { CardAnimatedBorder } from "@/components/ui/CardAnimatedBorder"
 
 
 
@@ -25,6 +28,12 @@ function Projects() {
 
 
         <ProjectsComp/>
+
+        <div className="flex mt-44">
+        <Image src={Exp} alt="exp"/>
+        </div>
+
+
 
     </section>
       

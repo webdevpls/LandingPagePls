@@ -20,9 +20,10 @@ type BadgeProps = {
     title: string,
     description: string
     button: string
+    href: string
     
   }
-export function CardProduct({title1, title2, title3, title4, title5, title, description, button}: BadgeProps) {
+export function CardProduct({title1, title2, title3, title4, title5, title, description, button, href}: BadgeProps) {
   const mouseX = useMotionValue(0);
   const mouseY = useMotionValue(0);
 
@@ -68,15 +69,15 @@ export function CardProduct({title1, title2, title3, title4, title5, title, desc
           <Badge title={title3}/>
           <Badge title={title4}/>
           <Badge title={title5}/>
-          <DialogComp
-          />
+          {/* <DialogComp
+          /> */}
           </div>
           
-          <button className="inline-flex items-center justify-center gap-1 text-sm py-3 px-4 font-semibold bg-[#574487] border border-[#574487] text-white rounded-lg duration-300 hover:bg-[#7860b5] w-full">
+          <a href={href} target="_blank" className="inline-flex items-center justify-center gap-1 text-sm py-3 px-4 font-semibold bg-[#574487] border border-[#574487] text-white rounded-lg duration-300 hover:bg-[#7860b5] w-full">
             Ver projeto 
             <ChevronRightIcon className="w-3"/>
 
-          </button>
+          </a>
         </div>
       </div>
     </div>

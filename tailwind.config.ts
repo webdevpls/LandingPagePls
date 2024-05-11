@@ -17,6 +17,8 @@ const config = {
         "2xl": "1400px",
       },
     },
+
+    
     extend: {
       colors: {
         border: "hsl(var(--border))",
@@ -71,9 +73,28 @@ const config = {
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        "flip": "flip 6s infinite steps(2, end)",
+        "rotate": "rotate 3s linear infinite both"
       },
     },
+    "keyframes": {
+      "flip": {
+        "to": {
+          "transform": "rotate(360deg)"
+        }
+      },
+      "rotate": {
+        "to": {
+          "transform": "rotate(90deg)"
+        }
+      }
+      
+    },
+
+    
   },
+
+  
   plugins: [require("tailwindcss-animate")],
 } satisfies Config
 
