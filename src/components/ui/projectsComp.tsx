@@ -18,7 +18,7 @@ function ProjectsComp() {
       
       />
       
-      <CardProduct title1="Html" title2="CSS" title3="JavaScrip" title4="Forms"  imageProject={productImage2}
+      <CardProduct title1="Html" title2="CSS" title3="JavaScrip" title4="Forms" title5='' imageProject={productImage2}
       title="LandingPage Etrium" description="Landing Page criada para a empresa Etrium que fornece um software Jurídico!" button="Ver projeto" href='http://www.etrium.com.br/'
       
       />
@@ -35,12 +35,12 @@ function ProjectsComp() {
       
       />
 
-      <CardProduct title1="Nextjs" title2="JS" title3="TypeScript" title4="Tailwind" title5="Shadcn"
+      <CardProduct title1="Nextjs" title2="JS" title3="TypeScript" title4="Tailwind" title5="Shadcn" imageProject={productImage4}
       title="Landing Page Itaú" description="Landing Page Itaú, feito totalmente para fins de estudo." button="Ver projeto" href='https://landingpageitau.vercel.app/'
       
       />
 
-      <CardProduct title1="Nextjs" title2="JS" title3="TypeScript" title4="ShadCN/UI" title5="LUXE"
+      <CardProduct title1="Nextjs" title2="JS" title3="TypeScript" title4="ShadCN/UI" title5="LUXE" imageProject={productImage4}
       title="Clone UI Spotify" description="Desenvolvimento da tela principal do Spotify. Somente para estudo" button="Ver projeto" href='https://spotify-clone-front-end.vercel.app/'
       
       />
