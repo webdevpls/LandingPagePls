@@ -7,7 +7,7 @@ import { Button } from '@/components/ui/button'
 
 function Footer() {
   return (
-    <footer className='bg-[#020007] text-white py-6 px-8'>
+    <footer className='bg-[#020007] text-white py-28 px-8'>
         <div className="container max-w-[100rem] flex items-center justify-between gap-6">
             
             <div>
