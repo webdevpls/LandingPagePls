@@ -1,7 +1,7 @@
 // @NOTE: in case you are using Next.js
 "use client";
 
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 
 import { useMotionValue, motion, useMotionTemplate } from "framer-motion";
 import { ArchiveBoxIcon, ChevronRightIcon, BoltIcon, ChevronDownIcon, Square3Stack3DIcon } from '@heroicons/react/24/solid'
@@ -21,9 +21,10 @@ type BadgeProps = {
     description: string
     button: string
     href: string
+    imageProject: StaticImageData
     
   }
-export function CardProduct({title1, title2, title3, title4, title5, title, description, button, href}: BadgeProps) {
+export function CardProduct({title1, title2, title3, title4, title5, title, description, button, href, imageProject }: BadgeProps) {
   const mouseX = useMotionValue(0);
   const mouseY = useMotionValue(0);
 
@@ -51,7 +52,7 @@ export function CardProduct({title1, title2, title3, title4, title5, title, desc
       <div className="relative flex flex-col gap-3 rounded-xl border border-white/10 px-4 py-5">
         <div className="space-y-2">
           <Image
-            src={productImage1}
+            src={imageProject}
             alt="Product image1"
             height={10}
             width={10}

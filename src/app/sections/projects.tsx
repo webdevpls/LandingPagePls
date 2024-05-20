@@ -1,7 +1,8 @@
-import { CardProduct } from "@/components/ui/CardProduct"
+
 import ProjectsComp from "@/components/ui/projectsComp"
 
 import { ArchiveBoxIcon, ChevronRightIcon, BoltIcon, ChevronDownIcon } from '@heroicons/react/24/solid'
+
 
 import  Exp  from "@/assets/experiencia.svg"
 import Image from "next/image"
@@ -15,7 +16,7 @@ function Projects() {
 
   
   return (
-    <section className="lg:py-20 justify-center items-center flex flex-col ">
+    <section id="projects" className="lg:py-20 justify-center items-center flex flex-col " >
         
 
         <div className=" pb-20 font-bold text-center">

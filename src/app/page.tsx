@@ -5,6 +5,8 @@ import Home from "./sections/home";
 import Navbar from "./sections/navbar";
 import Projects from "./sections/projects";
 import Service from "./sections/service";
+import Conhecimentos from "./sections/conhecimentos";
+import Footer from "./sections/footer";
 
 
 
@@ -15,6 +17,8 @@ export default function Index() {
       <Home/>
       <Projects/>
       <Service/>
+      <Conhecimentos/>
+      <Footer/>
     </main>
   );
 }

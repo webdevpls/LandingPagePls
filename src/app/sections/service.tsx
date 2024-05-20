@@ -4,7 +4,7 @@ import { ArchiveBoxIcon, ChevronRightIcon, BoltIcon, ChevronDownIcon, DevicePhon
 
 function Service() {
   return (
-    <section className="space-y-6 py-8 lg:py-32 justify-center items-center flex flex-row">
+    <section id="services" className="space-y-6 py-8 lg:py-32 justify-center items-center flex flex-row">
         
         <div className="flex-row flex gap-40 max-w-[80rem]">
 
@@ -23,8 +23,7 @@ function Service() {
             <CardAnimatedBorder
 
             title="Desenvolvimento de Landing Pages"
-            subtitle="Explore the new website that simplifies the creation of
-            sophisticated dark mode components."
+            subtitle="Landing pages otimizadas para conversão, com design responsivo e integrações de marketing."
             icon={<CodeBracketSquareIcon className="w-10 text-white mb-5"/>}
             
             />
@@ -32,8 +31,7 @@ function Service() {
             <CardAnimatedBorder
 
             title="Desenvolvimento de Apps"
-            subtitle="Explore the new website that simplifies the creation of
-            sophisticated dark mode components."
+            subtitle="Apps robustos e intuitivos para iOS e Android, focados em uma excelente experiência do usuário."
             icon={<DevicePhoneMobileIcon className="w-10 text-white mb-5"/>}
 
             />
@@ -41,8 +39,7 @@ function Service() {
             <CardAnimatedBorder
 
             title="Design UI/UX"
-            subtitle="Explore the new website that simplifies the creation of
-            sophisticated dark mode components."
+            subtitle="Interfaces intuitivas e visualmente atraentes, combinando estética e funcionalidade para uma melhor experiência do usuário."
             icon={<PhotoIcon className="w-10 text-white mb-5"/>}
 
             />

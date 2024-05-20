@@ -21,7 +21,7 @@ export function CardAnimatedBorder({title, subtitle, icon}: ServiceProps) {
             <p className="text-sm leading-[1.5] text-neutral-400">
               {subtitle}
             </p>
-            <a href="" className="flex items-center pt-5 justify- gap-1 text-sm font-normal text-[#8776B2]  duration-300 hover:gap-2">
+            <a href="https://api.whatsapp.com/send?phone=5583999794840&text=Ol%C3%A1,%20queria%20fazer%20um%20or%C3%A7amento!%20%F0%9F%98%83%F0%9F%9A%80" target='_blank' className="flex items-center pt-5 justify- gap-1 text-sm font-normal text-[#8776B2]  duration-300 hover:gap-2">
               Solicitar Orçamento
               <ChevronRightIcon className="w-3 pt-1" />
             </a>

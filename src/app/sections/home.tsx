@@ -17,7 +17,7 @@ import  Blur  from '@/assets/blur.svg'
 
 export default function Home () {
     return (
-    <section className="space-y-6 py-8 lg:py-32 justify-center items-center flex flex-col">
+    <section id="home" className="space-y-6 py-8 lg:py-32 justify-center items-center flex flex-col ">
         <Image src={Blur} alt="blur" className="absolute top-0 left-0"/>
         <div className="container flex flex-col items-center justify-center max-w-[60rem] gap-7 z-10">
             <span className="text-[#8776B2] text-center items-center flex gap-1">
@@ -33,7 +33,7 @@ export default function Home () {
         </div>
 
 
-        <div className="">
+        <div className="z-10">
         <DropdownMenu/>
         </div>
 
